@@ -6,13 +6,13 @@ This project provides insights into the job market by analyzing the demand for s
 
 # Datasets
 
-# requirementsFinal.csv
+## requirementsFinal.csv
 jobID: Unique identifier for the job. <br>
 Degree: The degree required (e.g., undergraduate, graduate, postgraduate).<br>
 Experience: Years of experience required.<br>
 Skill1 to Skill29: Various skills required for the job.
 
-# jobDataFinal.csv
+## jobDataFinal.csv
 companyName: The name of the company. <br>
 DatePosted: The date the job was posted. <br>
 jobTitle: The title of the job. <br>
