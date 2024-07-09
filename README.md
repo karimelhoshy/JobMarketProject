@@ -13,7 +13,7 @@ Experience: Years of experience required.
 Skill1 to Skill29: Various skills required for the job.
 
 # jobDataFinal.csv
-\n companyName: The name of the company.
+\n companyName: The name of the company. <br>
 \n DatePosted: The date the job was posted.
 jobTitle: The title of the job.
 job function: The function of the job.
