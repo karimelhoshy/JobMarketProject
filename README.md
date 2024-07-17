@@ -27,10 +27,7 @@ Job Area: The area of the job (e.g., Data Science).
 
 ## Key Analyses
 1. **Skill Demand Analysis**: Identified the most in-demand skills across job postings.
-2. **Experience and Degree Requirements**: Analyzed the relationship between required degrees, years of experience, and skill types.
-3. **Company and Industry Analysis**: Assessed job posting trends by company and industry.
-4. **Job Area Analysis**: Examined experience, degree requirements, and common skills by job area.
-
+2. **Industry and Job Openings**: Identified the industries with the most job openings.
 
 ## Tools and Technologies
 - **Databricks**: For data processing and warehousing.
@@ -39,5 +36,5 @@ Job Area: The area of the job (e.g., Data Science).
 - **SQL and Python**: For data querying and preprocessing.
 
 ## Visualizations
-Interactive Power BI dashboards visualize the key insights and trends in the job market.
+Interactive Power BI dashboards visualize the key insights and trends in the job market. Here is an overview of some of the insights:
 ![My Image](https://github.com/karimelhoshy/JobMarketProject/blob/main/dashboard.png)
