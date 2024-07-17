@@ -40,3 +40,4 @@ Job Area: The area of the job (e.g., Data Science).
 
 ## Visualizations
 Interactive Power BI dashboards visualize the key insights and trends in the job market.
+![My Image](https://github.com/karimelhoshy/JobMarketProject/dashboard.png)
