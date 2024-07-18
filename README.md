@@ -25,10 +25,6 @@ jobID: Unique identifier for the job, matching with requirementsFinal.csv. <br>
 Standardized Job Title: Standardized job title. <br>
 Job Area: The area of the job (e.g., Data Science).
 
-## Key Analyses
-1. **Skill Demand Analysis**: Identified the most in-demand skills across job postings.
-2. **Industry and Job Openings**: Identified the industries with the most job openings.
-
 ## Tools and Technologies
 - **Databricks**: For data processing and warehousing.
 - **AWS S3**: For data storage.
@@ -38,3 +34,6 @@ Job Area: The area of the job (e.g., Data Science).
 ## Visualizations
 Interactive Power BI dashboards visualize the key insights and trends in the job market. Here is an overview of some of the insights:
 ![My Image](https://github.com/karimelhoshy/JobMarketProject/blob/main/dashboard.png)
+
+## Full Report
+For a detailed report on the project, including methodologies, analysis, and findings, please refer to the [full report](https://github.com/karimelhoshy/JobMarketProject/blob/main/jobMarketProjectReport.pdf).
