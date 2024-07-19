@@ -17,8 +17,8 @@ companyName: The name of the company. <br>
 DatePosted: The date the job was posted. <br>
 jobTitle: The title of the job. <br>
 job function: The function of the job. <br>
-employment type: The type of employment (e.g., full-time). <br>
-seniority level: The seniority level required (e.g., entry level). <br>
+employment type: The type of employment (e.g., full-time, internship). <br>
+seniority level: The seniority level required (e.g., entry level, mid-senior level). <br>
 industries: The industry of the company. <br>
 Location: The location of the job. <br>
 jobID: Unique identifier for the job, matching with requirementsFinal.csv. <br>
