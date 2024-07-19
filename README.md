@@ -64,7 +64,6 @@ For a detailed report on the project, including methodologies, analysis, and fin
 2. **Set up your environment**:
 - Install required Python libraries:
 ```bash
-Copy code
 pip install -r requiredLibraries.txt
 ```
 
