@@ -6,13 +6,13 @@ This project provides insights into the job market by analyzing the demand for s
 
 # Datasets
 
-## requirementsFinal.csv
+## jobRequirements.csv
 jobID: Unique identifier for the job. <br>
 Degree: The degree required (e.g., undergraduate, graduate, postgraduate).<br>
 Experience: Years of experience required.<br>
 Skill1 to Skill29: Various skills required for the job.
 
-## jobDataFinal.csv
+## jobData.csv
 companyName: The name of the company. <br>
 DatePosted: The date the job was posted. <br>
 jobTitle: The title of the job. <br>
@@ -26,7 +26,7 @@ Standardized Job Title: Standardized job title. <br>
 Job Area: The area of the job (e.g., Data Science).
 
 ## combinedUnpivoted.csv
-Joined jobDataFinal.csv adn requirementsFinal.csv on jobID to simplify visualizations in Power BI <br>
+Joined jobData.csv and jobRequirements.csv on jobID to simplify visualizations in Power BI <br>
 
 ## Tools and Technologies
 - **Databricks**: For data processing and warehousing.
