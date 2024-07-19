@@ -38,3 +38,18 @@ Interactive Power BI dashboards visualize the key insights and trends in the job
 
 ## Full Report
 For a detailed report on the project, including methodologies, analysis, and findings, please refer to the [full report](https://github.com/karimelhoshy/JobMarketProject/blob/main/jobMarketProjectReport.pdf).
+
+## Getting Started
+
+### Prerequisites
+- Databricks account (recommended)
+- AWS S3 account
+- Power BI account
+- Python (with necessary libraries)
+
+### Installation
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/your-username/your-repository.git
+   cd your-repository
