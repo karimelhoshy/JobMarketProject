@@ -37,7 +37,7 @@ Joined jobData.csv and jobRequirements.csv on jobID to simplify visualizations i
 ## Visualizations
 Interactive Power BI dashboards visualize the key insights and trends in the job market. Here is an overview of some of the insights:<br>
 
-![My Image](https://github.com/karimelhoshy/JobMarketProject/blob/main/dashboard.png)
+![My Image](https://github.com/karimelhoshy/JobMarketProject/blob/main/dashboard.png)<br>
 ![My Image](https://github.com/karimelhoshy/JobMarketProject/blob/main/jobTitlesPerIndustry.png)
 
 ## Full Report
