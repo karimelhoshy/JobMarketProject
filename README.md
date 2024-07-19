@@ -97,9 +97,9 @@ pip install -r requiredLibraries.txt
 ## Customization
 
 You can adjust the scripts and notebooks to target specific locations, job titles, skills, job areas, or other parameters. Modify the filtering criteria in the data processing scripts to tailor the insights to your needs. For example:
--To focus on a particular location or emphasize specific job titles, modify the location and/or job title filter during the data collection step.
--To target specific skills, adjust the skill filtering criteria in the data cleaning and transformation step.
--To focus on particular job areas, modify the job area filter during the data cleaning and transformation process.
+- To focus on a particular location or emphasize specific job titles, modify the location and/or job title filter during the data collection step.
+- To target specific skills, adjust the skill filtering criteria in the data cleaning and transformation step.
+- To focus on particular job areas, modify the job area filter during the data cleaning and transformation process.
 
 
 ## License
@@ -110,6 +110,6 @@ This project is licensed under the MIT License - see the LICENSE.md file for det
 ## Contact
 
 For questions or further information, please contact me at:
-   -Email: karim.elhoshy@mail.mcgill.ca
-   -LinkedIn: thekarimelhoshy
-   -GitHub: karimelhoshy
+   - **Email**: [karim.elhoshy@mail.mcgill.ca](mailto:karim.elhoshy@mail.mcgill.ca)
+   - **LinkedIn**: [thekarimelhoshy](https://linkedin.com/in/thekarimelhoshy)
+   - **GitHub**: [karimelhoshy](https://github.com/karimelhoshy)
