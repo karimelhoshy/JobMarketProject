@@ -69,17 +69,17 @@ pip install -r requiredLibraries.txt
 ```
 
 3. **Configure Databricks and AWS S3**:
--Set up your Databricks workspace and AWS S3 buckets.
--Update the configuration file with your Databricks and AWS credentials.
+- Set up your Databricks workspace and AWS S3 buckets.
+- Update the configuration file with your Databricks and AWS credentials.
 
 4. **Run the scripts**:
--Execute the scripts to collect, clean and load data into Databricks and perform initial transformations.
+- Execute the scripts to collect, clean and load data into Databricks and perform initial transformations.
 
 5. **Visualize data with Power BI**:
--Open the Power BI file and connect it to the processed data for visualization.
+- Open the Power BI file and connect it to the processed data for visualization.
 
 
-## Usage
+### Usage
 
 1. **Run the Data Collection Notebook:**
    - Start by running `dataCollection.ipynb` to gather and collect the necessary data.
@@ -95,7 +95,7 @@ pip install -r requiredLibraries.txt
    - Use Power BI to create interactive dashboards and visualizations based on the cleaned and transformed data.
 
 
-## Customization
+### Customization
 
 You can adjust the scripts and notebooks to target specific locations, job titles, skills, job areas, or other parameters. Modify the filtering criteria in the data processing scripts to tailor the insights to your needs. For example:
 -To focus on a particular location or emphasize specific job titles, modify the location and/or job title filter during the data collection step.
