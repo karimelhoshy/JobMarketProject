@@ -23,7 +23,7 @@ industries: The industry of the company. <br>
 Location: The location of the job. <br>
 jobID: Unique identifier for the job, matching with requirementsFinal.csv. <br>
 Standardized Job Title: Standardized job title. <br>
-Job Area: The area of the job (e.g., Data Science).
+Job Area: The area of the job (e.g., Data Science, Cybersecurity, Web and Mobile Development).
 
 ## combinedUnpivoted.csv
 Joined jobData.csv and jobRequirements.csv on jobID to simplify visualizations in Power BI <br>
