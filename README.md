@@ -53,3 +53,35 @@ For a detailed report on the project, including methodologies, analysis, and fin
    ```bash
    git clone https://github.com/your-username/your-repository.git
    cd your-repository
+   ```
+
+
+2. **Set up your environment**:
+
+- Install required Python libraries:
+```bash
+Copy code
+pip install -r requirements.txt
+Configure Databricks and AWS S3:
+```
+
+Set up your Databricks workspace and AWS S3 buckets.
+Update the configuration file with your Databricks and AWS credentials.
+Run data processing scripts:
+
+Execute the data processing scripts to load data into Databricks and perform initial transformations.
+Visualize data with Power BI:
+
+Open the Power BI file and connect it to the processed data for visualization.
+Usage
+
+Running the Analysis
+Follow the Jupyter notebooks provided in the notebooks directory to run the analysis.
+Each notebook contains detailed instructions and explanations of the analysis steps.
+Viewing the Dashboards
+Open the Power BI file to interact with the dashboards and explore the job market insights.
+Customization
+The scripts and notebooks can be adjusted to focus on specific locations, job titles, or other parameters of interest. Modify the filtering criteria in the data processing scripts to tailor the insights to your needs. For example:
+To filter by location, adjust the location filter in the data extraction or transformation steps.
+To focus on specific job titles, update the job title filtering criteria accordingly.
+
