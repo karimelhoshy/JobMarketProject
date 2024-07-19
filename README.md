@@ -108,7 +108,7 @@ You can adjust the scripts and notebooks to target specific locations, job title
 This project is licensed under the MIT License - see the LICENSE.md file for details.
 
 
-##Contact
+## Contact
 
 For questions or further information, please contact me at:
    -Email: karim.elhoshy@mail.mcgill.ca
