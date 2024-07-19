@@ -25,6 +25,9 @@ jobID: Unique identifier for the job, matching with requirementsFinal.csv. <br>
 Standardized Job Title: Standardized job title. <br>
 Job Area: The area of the job (e.g., Data Science).
 
+## combinedUnpivoted.csv
+Joined jobDataFinal.csv adn requirementsFinal.csv on jobID to simplify visualizations in Power BI <br>
+
 ## Tools and Technologies
 - **Databricks**: For data processing and warehousing.
 - **AWS S3**: For data storage.
@@ -62,26 +65,39 @@ For a detailed report on the project, including methodologies, analysis, and fin
 ```bash
 Copy code
 pip install -r requirements.txt
-Configure Databricks and AWS S3:
 ```
 
-Set up your Databricks workspace and AWS S3 buckets.
-Update the configuration file with your Databricks and AWS credentials.
-Run data processing scripts:
+3. **Configure Databricks and AWS S3**:
 
-Execute the data processing scripts to load data into Databricks and perform initial transformations.
-Visualize data with Power BI:
+-Set up your Databricks workspace and AWS S3 buckets.
+-Update the configuration file with your Databricks and AWS credentials.
 
-Open the Power BI file and connect it to the processed data for visualization.
-Usage
+4. **Run the scripts**:
 
-Running the Analysis
-Follow the Jupyter notebooks provided in the notebooks directory to run the analysis.
-Each notebook contains detailed instructions and explanations of the analysis steps.
-Viewing the Dashboards
-Open the Power BI file to interact with the dashboards and explore the job market insights.
-Customization
-The scripts and notebooks can be adjusted to focus on specific locations, job titles, or other parameters of interest. Modify the filtering criteria in the data processing scripts to tailor the insights to your needs. For example:
-To filter by location, adjust the location filter in the data extraction or transformation steps.
-To focus on specific job titles, update the job title filtering criteria accordingly.
+-Execute the scripts to collect, clean and load data into Databricks and perform initial transformations.
 
+5. **Visualize data with Power BI**:
+
+-Open the Power BI file and connect it to the processed data for visualization.
+
+## Usage
+
+1. **Run the Data Collection Notebook:**
+   - Start by running `dataCollection.ipynb` to gather and collect the necessary data.
+
+2. **Run the Data Exploration Notebook:**
+   - Next, run `dataExploration.ipynb` to perform initial exploration and analysis of the collected data.
+
+3. **Run the Data Cleaning and Transformation Notebook:**
+   - Finally, run `dataCleaningandTransformation.ipynb` to clean and transform the data. This will generate an unpivoted CSV file ready for visualization.
+
+4. **Visualize Data with Power BI:**
+   - After generating the unpivoted CSV file, import it into Power BI.
+   - Use Power BI to create interactive dashboards and visualizations based on the cleaned and transformed data.
+
+## Customization
+
+You can adjust the scripts and notebooks to target specific locations, job titles, skills, job areas, or other parameters. Modify the filtering criteria in the data processing scripts to tailor the insights to your needs. For example:
+-To focus on a particular location or emphasize specific job titles, modify the location and/or job title filter during the data collection step.
+-To target specific skills, adjust the skill filtering criteria in the data cleaning and transformation step.
+-To focus on particular job areas, modify the job area filter during the data cleaning and transformation process.
