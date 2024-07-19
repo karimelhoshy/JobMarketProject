@@ -104,7 +104,7 @@ You can adjust the scripts and notebooks to target specific locations, job title
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE.md ![LICENSE.md](https://github.com/karimelhoshy/JobMarketProject/blob/main/LICENSE.md) file for details.
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/karimelhoshy/JobMarketProject/blob/main/LICENSE.md) file for details.
 
 
 ## Contact
