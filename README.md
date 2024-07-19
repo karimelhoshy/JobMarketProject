@@ -42,6 +42,7 @@ Interactive Power BI dashboards visualize the key insights and trends in the job
 ## Full Report
 For a detailed report on the project, including methodologies, analysis, and findings, please refer to the [full report](https://github.com/karimelhoshy/JobMarketProject/blob/main/jobMarketProjectReport.pdf).
 
+
 ## Getting Started
 
 ### Prerequisites
@@ -49,6 +50,7 @@ For a detailed report on the project, including methodologies, analysis, and fin
 - AWS S3 account
 - Power BI account
 - Python (with necessary libraries)
+
 
 ### Installation
 
@@ -63,7 +65,7 @@ For a detailed report on the project, including methodologies, analysis, and fin
 - Install required Python libraries:
 ```bash
 Copy code
-pip install -r requiredModules.txt
+pip install -r requiredLibraries.txt
 ```
 
 3. **Configure Databricks and AWS S3**:
@@ -75,6 +77,7 @@ pip install -r requiredModules.txt
 
 5. **Visualize data with Power BI**:
 -Open the Power BI file and connect it to the processed data for visualization.
+
 
 ## Usage
 
@@ -91,9 +94,23 @@ pip install -r requiredModules.txt
    - After generating the unpivoted CSV file, import it into Power BI.
    - Use Power BI to create interactive dashboards and visualizations based on the cleaned and transformed data.
 
+
 ## Customization
 
 You can adjust the scripts and notebooks to target specific locations, job titles, skills, job areas, or other parameters. Modify the filtering criteria in the data processing scripts to tailor the insights to your needs. For example:
 -To focus on a particular location or emphasize specific job titles, modify the location and/or job title filter during the data collection step.
 -To target specific skills, adjust the skill filtering criteria in the data cleaning and transformation step.
 -To focus on particular job areas, modify the job area filter during the data cleaning and transformation process.
+
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE.md file for details.
+
+
+##Contact
+
+For questions or further information, please contact me at:
+   -Email: karim.elhoshy@mail.mcgill.ca
+   -LinkedIn: thekarimelhoshy
+   -GitHub: karimelhoshy
