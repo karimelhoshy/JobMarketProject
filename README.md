@@ -29,10 +29,10 @@ Job Area: The area of the job (e.g., Data Science, Cybersecurity, Web and Mobile
 Joined jobData.csv and jobRequirements.csv on jobID to simplify visualizations in Power BI <br>
 
 ## Tools and Technologies
-- **Databricks**: For data processing and warehousing.
-- **AWS S3**: For data storage.
-- **Power BI**: For data visualization.
-- **SQL and Python**: For data querying and preprocessing.
+   - **Databricks**: For data processing and warehousing.
+   - **AWS S3**: For data storage.
+   - **Power BI**: For data visualization.
+   - **SQL and Python**: For data querying and preprocessing.
 
 ## Visualizations
 Interactive Power BI dashboards visualize the key insights and trends in the job market. Here is an overview of some of the insights:
@@ -46,10 +46,10 @@ For a detailed report on the project, including methodologies, analysis, and fin
 # Getting Started
 
 ## Prerequisites
-- Databricks account (recommended)
-- AWS S3 account
-- Power BI account
-- Python (with necessary libraries)
+   - Databricks account 
+   - AWS S3 account
+   - Power BI account
+   - Python 
 
 
 ## Installation
@@ -62,20 +62,20 @@ For a detailed report on the project, including methodologies, analysis, and fin
 
 
 2. **Set up your environment**:
-- Install required Python libraries:
-```bash
-pip install -r requiredLibraries.txt
-```
+   - Install required Python libraries:
+   ```bash
+   pip install -r requiredLibraries.txt
+   ```
 
 3. **Configure Databricks and AWS S3**:
-- Set up your Databricks workspace and AWS S3 buckets.
-- Update the configuration file with your Databricks and AWS credentials.
+   - Set up your Databricks workspace and AWS S3 buckets.
+   - Update the configuration file with your Databricks and AWS credentials.
 
 4. **Run the scripts**:
-- Execute the scripts to collect, clean and load data into Databricks and perform initial transformations.
+   - Execute the scripts to collect, clean and load data into Databricks and perform initial transformations.
 
 5. **Visualize data with Power BI**:
-- Open the Power BI file and connect it to the processed data for visualization.
+   - Open the Power BI file and connect it to the processed data for visualization.
 
 
 ## Usage
@@ -97,9 +97,9 @@ pip install -r requiredLibraries.txt
 ## Customization
 
 You can adjust the scripts and notebooks to target specific locations, job titles, skills, job areas, or other parameters. Modify the filtering criteria in the data processing scripts to tailor the insights to your needs. For example:
-- To focus on a particular location or emphasize specific job titles, modify the location and/or job title filter during the data collection step.
-- To target specific skills, adjust the skill filtering criteria in the data cleaning and transformation step.
-- To focus on particular job areas, modify the job area filter during the data cleaning and transformation process.
+   - To focus on a particular location or emphasize specific job titles, modify the location and/or job title filter during the data collection step.
+   - To target specific skills, adjust the skill filtering criteria in the data cleaning and transformation step.
+   - To focus on particular job areas, modify the job area filter during the data cleaning and transformation process.
 
 
 ## License
