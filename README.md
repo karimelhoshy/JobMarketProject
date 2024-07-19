@@ -60,24 +60,20 @@ For a detailed report on the project, including methodologies, analysis, and fin
 
 
 2. **Set up your environment**:
-
 - Install required Python libraries:
 ```bash
 Copy code
-pip install -r requirements.txt
+pip install -r requiredModules.txt
 ```
 
 3. **Configure Databricks and AWS S3**:
-
 -Set up your Databricks workspace and AWS S3 buckets.
 -Update the configuration file with your Databricks and AWS credentials.
 
 4. **Run the scripts**:
-
 -Execute the scripts to collect, clean and load data into Databricks and perform initial transformations.
 
 5. **Visualize data with Power BI**:
-
 -Open the Power BI file and connect it to the processed data for visualization.
 
 ## Usage
