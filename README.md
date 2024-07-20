@@ -28,19 +28,19 @@ Job Area: The area of the job (e.g., Data Science, Cybersecurity, Web and Mobile
 ## combinedUnpivoted.csv
 Joined jobData.csv and jobRequirements.csv on jobID to simplify visualizations in Power BI <br>
 
-## Tools and Technologies
+# Tools and Technologies
    - **Databricks**: For data processing and warehousing.
    - **AWS S3**: For data storage.
    - **Power BI**: For data visualization.
    - **SQL and Python**: For data querying and preprocessing.
 
-## Visualizations
+# Visualizations
 Interactive Power BI dashboards visualize the key insights and trends in the job market. Here is an overview of some of the insights:<br>
 
 ![My Image](https://github.com/karimelhoshy/JobMarketProject/blob/main/dashboard.png)<br>
 ![My Image](https://github.com/karimelhoshy/JobMarketProject/blob/main/jobTitlesPerIndustry.png)
 
-## Full Report
+# Full Report
 For a detailed report on the project, including methodologies, analysis, and findings, please refer to the [full report](https://github.com/karimelhoshy/JobMarketProject/blob/main/jobMarketProjectReport.pdf).
 
 
@@ -79,7 +79,7 @@ For a detailed report on the project, including methodologies, analysis, and fin
    - Open the Power BI file and connect it to the processed data for visualization.
 
 
-## Usage
+# Usage
 
 1. **Run the Data Collection Notebook:**
    - Start by running `dataCollection.ipynb` to gather and collect the necessary data.
@@ -103,12 +103,12 @@ You can adjust the scripts and notebooks to target specific locations, job title
    - To focus on particular job areas, modify the job area filter during the data cleaning and transformation process.
 
 
-## License
+# License
 
 This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/karimelhoshy/JobMarketProject/blob/main/LICENSE.md) file for details.
 
 
-## Contact
+# Contact
 
 For questions or further information, please contact me at:
    - **Email**: [karim.elhoshy@mail.mcgill.ca](mailto:karim.elhoshy@mail.mcgill.ca)
