@@ -112,7 +112,7 @@ def main():
     model = build_recommender_system(df)
     
     # User preferences
-    user_skills = ["Python", "SQ", "Machine Learning"]
+    user_skills = ["Python", "SQL", "Machine Learning"]
     user_experience = 3
     
     # Recommend jobs
